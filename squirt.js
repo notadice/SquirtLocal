@@ -87,10 +87,10 @@ sq.progressBarLocation = sq.progressBarLocation || 'bottom';
       var handler;
       function readabilityReady(){
         handler && document.removeEventListener('readility.ready', handler);
-		let article = readability.grabArticle();
+		let article = readability._grabArticle();
 		// Read text
 		article = removeUnwantedElements(article)
-		read(readability.grabArticleText(article));
+		read(readability.article.content.text());
       };
 
       if(window.readability) return readabilityReady();
