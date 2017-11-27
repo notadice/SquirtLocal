@@ -1,3 +1,6 @@
+A message here:
+https://github.com/rdsqrt/SquirtLocal
+
 # Squirt
 
 A speed reading bookmarklet.
